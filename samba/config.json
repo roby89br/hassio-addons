@@ -25,5 +25,7 @@
     "allow_hosts": ["str"],
     "veto_files": ["str"]
   },
+  "devices": ["/dev/sda1:/dev/sda1:rwm"],
+  "privileged": ["SYS_ADMIN"]
   "image": "homeassistant/{arch}-addon-samba"
 }
